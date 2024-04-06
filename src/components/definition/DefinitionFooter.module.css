@@ -18,6 +18,15 @@
   margin-right: 8px;
 }
 
+.source-overflow {
+  word-break: break-word;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  -o-hyphens: auto;
+  hyphens: auto;
+}
+
+
 .line-divider {
   width: 340px;
   height: 1px;

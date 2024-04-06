@@ -14,7 +14,9 @@ export default function DefinitionFooter({ definitionData }) {
         target="_blank"
         className={styles["source"]}
       >
-        <p>{definitionData.sourceUrls[0]}</p>
+        <p className={styles["source-overflow"]}>
+          {definitionData.sourceUrls[0]}
+        </p>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="14"
