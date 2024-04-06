@@ -1,0 +1,80 @@
+.definition {
+  /* display: flex;
+  flex-direction: column; */
+  /* align-items: flex-start; */
+  line-height: 1.25rem;
+  letter-spacing: 1.25px;
+  margin-bottom: 2rem;
+}
+
+.definition p {
+  color: var(--color-grey-300);
+}
+
+.definition ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 340px;
+  padding: 0;
+}
+
+.definition ul li {
+  margin-left: 1rem;
+  /* width: 280px; */
+  padding: 10px 8px;
+
+  
+}
+
+.synonyms-antonyms {
+    color: var(--color-purple-300);
+    font-weight: 600;
+}
+
+.definition ul li::marker {
+  color: var(--color-purple-300);
+  
+}
+
+.definition-span {
+
+ text-align: left;
+ line-height: 1.75rem;
+  
+}
+
+.speech-part-container {
+  display: flex;
+  width: 345px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.line-divider {
+
+  height: 1px;
+  background-color: var(--color-grey-300);
+}
+
+@media screen and (min-width: 768px) {
+
+  .definition ul {
+    /* display: flex;
+    flex-direction: column;
+    align-items: flex-start; */
+    
+    width: 585px;
+
+  }
+
+  .definition ul li {
+    margin-left: 2rem;
+  }
+
+  .line-divider {
+    min-width: 525px;
+    margin-left: 1rem;
+  }
+}
+

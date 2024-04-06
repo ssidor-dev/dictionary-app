@@ -1,0 +1,21 @@
+.definition-container {
+  display: flex;
+  flex-direction: column;
+  width: 325px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.definition-container a {
+  text-decoration: none;
+  color: var(--color-grey-300);
+  margin-bottom: 1rem;
+
+  font-size: 0.875rem;
+}
+
+@media screen and (min-width: 768px) {
+  .definition-container {
+    width: 585px;
+  }
+}

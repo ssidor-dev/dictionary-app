@@ -1,0 +1,55 @@
+@font-face {
+  font-family: inconsolata;
+  src: url(./assets/fonts/static/Inconsolata-Regular.ttf)
+}
+
+/*
+ Global CSS Variables
+*/
+
+:root {
+  /* Colors*/
+  --color-black-900: rgb(5, 5, 5);
+  --color-black-800: rgb(31, 31, 31);
+  --color-black-700: rgb(45, 45, 45);
+  --color-black-600: rgb(58, 58, 58);
+  --color-grey-300: rgb(117, 117, 117);
+  --color-grey-200: rgb(233, 233, 233);
+  --color-grey-100: rgb(244, 244, 244);
+  --color-white: rgb(255, 255, 255);
+  --color-purple-300: rgb(164, 69, 237);
+  --color-red-error: rgb(255, 82, 82);
+}
+
+
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: inconsolata, sans-serif;
+}
+
+/*
+ DARK MODE STYLES
+*/
+
+.dark-mode {
+  background-color: var(--color-black-900);
+  color: var(--color-white);
+  min-height: 100vh;
+}
+
+.dark-mode form[id="dark"] {
+  background: var(--color-black-600);
+  stroke: var(--color-purple-300);
+}
+
+.dark-mode input[id="search-query"] {
+  background: var(--color-black-600);
+  color: var(--color-white);
+}
+
+.dark-mode path[id="dark"] {
+  stroke: var(--color-purple-300);
+}
