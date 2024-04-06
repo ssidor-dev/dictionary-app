@@ -17,7 +17,7 @@ export default function DefinitionHeader({ word, phonetics, phonetic }) {
   return (
     <div className={styles["definition-header"]}>
       <div>
-        <h1>{word}</h1>
+        <h1 className={styles["word-overflow"]}>{word}</h1>
         <p>
           {phonetic
             ? phonetic
